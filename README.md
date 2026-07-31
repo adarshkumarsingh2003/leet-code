@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0463-island-perimeter](https://github.com/mohdshaquibansari/leet-code/tree/master/0463-island-perimeter) |
+| [0814-binary-tree-pruning](https://github.com/mohdshaquibansari/leet-code/tree/master/0814-binary-tree-pruning) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -232,4 +233,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/mohdshaquibansari/leet-code/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/mohdshaquibansari/leet-code/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+## Tree
+|  |
+| ------- |
+| [0814-binary-tree-pruning](https://github.com/mohdshaquibansari/leet-code/tree/master/0814-binary-tree-pruning) |
+## Binary Tree
+|  |
+| ------- |
+| [0814-binary-tree-pruning](https://github.com/mohdshaquibansari/leet-code/tree/master/0814-binary-tree-pruning) |
 <!---LeetCode Topics End-->
