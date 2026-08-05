@@ -231,10 +231,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0463-island-perimeter](https://github.com/mohdshaquibansari/leet-code/tree/master/0463-island-perimeter) |
 | [0814-binary-tree-pruning](https://github.com/mohdshaquibansari/leet-code/tree/master/0814-binary-tree-pruning) |
+| [3310-remove-methods-from-project](https://github.com/mohdshaquibansari/leet-code/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0463-island-perimeter](https://github.com/mohdshaquibansari/leet-code/tree/master/0463-island-perimeter) |
+| [3310-remove-methods-from-project](https://github.com/mohdshaquibansari/leet-code/tree/master/3310-remove-methods-from-project) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -270,4 +272,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0876-middle-of-the-linked-list](https://github.com/mohdshaquibansari/leet-code/tree/master/0876-middle-of-the-linked-list) |
+## Graph Theory
+|  |
+| ------- |
+| [3310-remove-methods-from-project](https://github.com/mohdshaquibansari/leet-code/tree/master/3310-remove-methods-from-project) |
 <!---LeetCode Topics End-->
