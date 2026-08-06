@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/mohdshaquibansari/leet-code/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/mohdshaquibansari/leet-code/tree/master/2965-find-missing-and-repeated-values) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/mohdshaquibansari/leet-code/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/mohdshaquibansari/leet-code/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/mohdshaquibansari/leet-code/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/mohdshaquibansari/leet-code/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/mohdshaquibansari/leet-code/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1291-sequential-digits](https://github.com/mohdshaquibansari/leet-code/tree/master/1291-sequential-digits) |
 | [1952-three-divisors](https://github.com/mohdshaquibansari/leet-code/tree/master/1952-three-divisors) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/mohdshaquibansari/leet-code/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/mohdshaquibansari/leet-code/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/mohdshaquibansari/leet-code/tree/master/3514-number-of-unique-xor-triplets-ii) |
 ## Number Theory
