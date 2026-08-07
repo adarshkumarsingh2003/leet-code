@@ -1,7 +1,4 @@
-import java.util.Arrays;
-
 class Solution {
-    // Helper class to track required prime factors (2, 3, 5, 7)
     static class Factors {
         int c2 = 0, c3 = 0, c5 = 0, c7 = 0;
 
@@ -15,18 +12,16 @@ class Solution {
         }
     }
 
-    // Extract prime factors of t
     private Factors getFactors(long n) {
         Factors f = new Factors();
         while (n % 2 == 0) { f.c2++; n /= 2; }
         while (n % 3 == 0) { f.c3++; n /= 3; }
         while (n % 5 == 0) { f.c5++; n /= 5; }
         while (n % 7 == 0) { f.c7++; n /= 7; }
-        if (n > 1) return null; // Invalid prime factor > 7
+        if (n > 1) return null; 
         return f;
     }
 
-    // Update factor counts based on single digit d (1-9)
     private void addDigitFactors(Factors f, int digit, int val) {
         if (digit == 2) f.c2 += val;
         else if (digit == 3) f.c3 += val;
@@ -38,7 +33,6 @@ class Solution {
         else if (digit == 9) f.c3 += 2 * val;
     }
 
-    // Minimum digits needed to cover remaining required factors
     private int minDigitsNeeded(Factors req) {
         int c2 = Math.max(0, req.c2);
         int c3 = Math.max(0, req.c3);
@@ -47,27 +41,22 @@ class Solution {
 
         int count = c5 + c7;
 
-        // Pack 3s into 9s
         count += c3 / 2;
         c3 %= 2;
 
-        // Pack 2s into 8s
         count += c2 / 3;
         c2 %= 3;
-
-        // Handle remaining c2 in {0, 1, 2} and c3 in {0, 1}
         if (c2 == 0 && c3 == 0) {
-            // No extra digits needed
+           
         } else if (c2 == 2 && c3 == 1) {
-            count += 2; // e.g., digits '2' and '6'
+            count += 2; 
         } else {
-            count += 1; // (0,1)->'3', (1,0)->'2', (2,0)->'4', (1,1)->'6'
-        }
+            count += 1; 
+            }
 
         return count;
     }
 
-    // Constructs the smallest suffix string of given length satisfying factors
     private String fillSuffix(int len, Factors req) {
         StringBuilder sb = new StringBuilder();
         int c2 = Math.max(0, req.c2);
@@ -98,14 +87,13 @@ class Solution {
 
     public String smallestNumber(String num, long t) {
         Factors target = getFactors(t);
-        if (target == null) return "-1"; // Prime factor > 7 exists
+        if (target == null) return "-1"; 
 
         int n = num.length();
         boolean hasZero = false;
         int zeroIdx = -1;
         Factors currentReq = new Factors(target.c2, target.c3, target.c5, target.c7);
 
-        // Check if original num is valid
         for (int i = 0; i < n; i++) {
             if (num.charAt(i) == '0') {
                 hasZero = true;
@@ -120,7 +108,6 @@ class Solution {
             return num;
         }
 
-        // Try replacing a digit at index i with a larger digit d > num[i]
         int limit = hasZero ? zeroIdx : n - 1;
         Factors prefixReq = new Factors(target.c2, target.c3, target.c5, target.c7);
         for (int i = 0; i < limit; i++) {
@@ -145,7 +132,6 @@ class Solution {
             }
         }
 
-        // Expand length if same-length answer is impossible
         int newLen = n + 1;
         while (minDigitsNeeded(target) > newLen) {
             newLen++;
