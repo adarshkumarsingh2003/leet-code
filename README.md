@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/mohdshaquibansari/leet-code/tree/master/0303-range-sum-query-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/mohdshaquibansari/leet-code/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mohdshaquibansari/leet-code/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0414-third-maximum-number](https://github.com/mohdshaquibansari/leet-code/tree/master/0414-third-maximum-number) |
 | [0463-island-perimeter](https://github.com/mohdshaquibansari/leet-code/tree/master/0463-island-perimeter) |
 | [0486-predict-the-winner](https://github.com/mohdshaquibansari/leet-code/tree/master/0486-predict-the-winner) |
 | [0495-teemo-attacking](https://github.com/mohdshaquibansari/leet-code/tree/master/0495-teemo-attacking) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/mohdshaquibansari/leet-code/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/mohdshaquibansari/leet-code/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mohdshaquibansari/leet-code/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0414-third-maximum-number](https://github.com/mohdshaquibansari/leet-code/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mohdshaquibansari/leet-code/tree/master/0628-maximum-product-of-three-numbers) |
 | [0977-squares-of-a-sorted-array](https://github.com/mohdshaquibansari/leet-code/tree/master/0977-squares-of-a-sorted-array) |
 | [1331-rank-transform-of-an-array](https://github.com/mohdshaquibansari/leet-code/tree/master/1331-rank-transform-of-an-array) |
